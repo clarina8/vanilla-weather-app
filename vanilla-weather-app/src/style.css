@@ -28,8 +28,9 @@ h1 {
   font-size: 36px;
   padding-top: 80px;
 }
-.units {
-  font-size: 30px;
+.wind-class {
+  font-size: 18px;
+  text-align: right;
 }
 h2 {
   font-size: 130px;
@@ -40,6 +41,22 @@ h2 {
   margin: auto 75px;
   letter-spacing: -1px;
   opacity: 0.9;
+}
+#weather-description {
+  font-size: 28px;
+  margin: auto 75px;
+  letter-spacing: -1px;
+  opacity: 0.9;
+  text-align: center;
+  text-transform: capitalize;
+}
+.weather-properties {
+  margin: auto 75px;
+  letter-spacing: -1px;
+}
+.humidity-class {
+  font-size: 18px;
+  text-align: left;
 }
 a {
   color: #ffffff;
