@@ -48,6 +48,8 @@ h2 {
   letter-spacing: -1px;
   opacity: 0.9;
   text-align: center;
+}
+#weather-description:first-letter {
   text-transform: capitalize;
 }
 .weather-properties {
