@@ -14,7 +14,8 @@ body {
 }
 .today {
   background-image: url(https://images.unsplash.com/photo-1483702721041-b23de737a886?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
-  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  color: rgb(0, 0, 0);
   border-top-right-radius: 195px;
   border-top-left-radius: 195px;
 }
@@ -62,13 +63,7 @@ h2 {
   margin-bottom: 20px;
   margin-top: 0px;
 }
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-a:hover {
-  color: #ffffff;
-}
+
 .current-day {
   text-align: left;
 }
@@ -134,4 +129,37 @@ footer {
   scale: 0.75;
   max-width: 75px;
   max-height: 75px;
+}
+.unit-convert {
+  margin-bottom: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+#fahrenheit-link #celsius-link {
+  color: darkslategrey;
+}
+.unit-convert .active {
+  color: #000000;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.unit-convert .active:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  box-shadow: none;
+  opacity: 1;
+}
+
+a:hover {
+  color: #ffffff;
+  opacity: 0.5;
+  text-decoration: none;
 }
